@@ -14,7 +14,7 @@ The original analysis requested by the Colorado Board of Elections requested an 
 - Percentage of votes each candidate won
 - The winner of the election based on the popular vote
 
-Theelection commission has requested some additional data to complete the audit:
+The election commission has requested some additional data to complete the audit:
 - The voter turnout for each county
 - The percentage of votes from each county out of the total count
 - The county with the highest turnout
@@ -32,19 +32,26 @@ Guidance: Using a bulleted list, address the following election outcomes. Use im
 
 ## Specified Requests
 - How many votes were cast in this congressional election?
-    - Total_votes
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-    - Votes_breakdown
-- Which county had the largest number of votes?
-    - Largest_county
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-    - Votes_number
-    - Percent_by_candidate
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-    - Winning_candidate
-        - Vote_count
-        - Percent_of_winner
+    - Total_votes - 369,711
+- A complete list of candidates who received votes
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- Total number of votes each candidate received
+    - Charles Casper Stockham: 85,213
+    - Diana DeGette: 272,892
+    - Raymon Anthony Doane: 11,606
+- Percentage of votes each candidate won
+    - Charles Casper Stockham: 23.0%
+    - Diana DeGette: 73.8%
+    - Raymon Anthony Doane: 3.1$
+- The winner of the election based on the popular vote
+    - Diana DeGette
 
-![My analysis]()
+## My Results
+![My analysis](./Images/election_analasis_txt.png)
 
 # Election Analysis Python Code Summary
+As the Python code provided is not written for specific counties or candidates, it could be reused for any statewide election given the following: 
+ 1. Provision of a separate csv file for each election 
+ 2. Creation of a separate election analysis text file
